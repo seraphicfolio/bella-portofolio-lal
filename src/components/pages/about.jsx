@@ -6,9 +6,13 @@ export default function About() {
      <section className="w-full h-screen bg-[#f5d2d2] flex items-center justify-center px-[300px] py-10">
       <div className="mt-20 w-full h-full relative flex flex-col items-center justify-center">
         <div className="w-[35%] h-[80%] absolute top-0 right-0 bg-[#ffebd7] border-[1px] border-slate-300"></div>
-        <div className="w-[35%] h-[80%] absolute top-10 right-10 border-[0.5px] border-slate-300 shadow-md blur-[2px]">
-          <img className="w-full h-full object-center object-fill" src="https://drive.google.com/thumbnail?id=1n_ErMt_tQz6l19s21gmA9zj82bfkErmg
-" alt="" />
+
+        <div className="absolute -top-16 -right-20 blur-[2px]">
+          <img className="w-60 h-60" src="./flower.png" alt="flower" />
+        </div>
+
+        <div className="w-[35%] h-[80%] absolute top-10 right-10 border-[0.5px] border-slate-300 shadow-md">
+          <img className="w-full h-full object-center object-fill" src="./profiles.jpeg" alt="" />
         </div>
 
         <div className="w-[60%] h-fit z-10 -ml-36 relative">
