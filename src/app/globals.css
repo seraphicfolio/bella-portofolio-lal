@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+body { 
+  background-color: #FFEBD4;
+}
+
+.strokeAbout {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
