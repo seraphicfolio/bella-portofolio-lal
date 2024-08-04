@@ -16,3 +16,13 @@ body {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
+
+.text-stroke-white {
+  -webkit-text-stroke: 9px white; /* Adjust stroke width and color */
+  color: transparent;
+}
+
+.text-stroke-black {
+  -webkit-text-stroke: 9px black; /* Adjust stroke width and color */
+  color: transparent;
+}
