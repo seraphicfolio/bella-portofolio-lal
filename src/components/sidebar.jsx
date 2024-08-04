@@ -12,9 +12,9 @@ export default function SideBar() {
             <a href="https://www.linkedin.com/in/nur-shafa-salsabila/" target="_blank" className="w-full h-14 flex items-center justify-center">
                 <i className="ri-linkedin-box-fill text-[25px]"></i>
             </a>
-            <div className="w-full h-14 flex items-center justify-center">
+            <a className="w-full h-14 flex items-center justify-center">
                 <i className="ri-whatsapp-fill text-[25px]"></i>
-            </div>
+            </a>
         </div>
     );
   }

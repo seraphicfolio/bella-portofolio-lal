@@ -1,13 +1,10 @@
 "use client"
 import { Carousel } from "flowbite-react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-AOS.init();
 
 export default function Portofolio() {
   return (
     <>
-      <section className="w-full h-fit bg-[#987070] grid grid-cols-2">
+      <section className="w-full h-fit grid grid-cols-2" id="portofolio">
         <div className="h-[500px] bg-black relative group">
           <div className="absolute z-20 top-0 right-0 h-full w-full backdrop-blur-md flex items-center justify-center duration-300 ease-in-out transition-all group-hover:-right-full">
               <h1 className="text-[200px] font-bold text-stroke-white">MOBILE</h1>
