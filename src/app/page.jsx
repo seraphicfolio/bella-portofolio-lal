@@ -10,14 +10,16 @@ import Portofolio from "@/components/pages/portofolio";
 export default function Home() {
   return (
     <>
-      <Navbar/>
-      <SideBar/>
-      <Homepages/>
-      <About/>
-      <Motivate/>
-      <Portofolio/>
-      <Certificate />
-      <Footer/>
+      <section className="overflow-hidden">
+        <Navbar/>
+        <SideBar/>
+        <Homepages/>
+        <About/>
+        <Motivate/>
+        <Portofolio/>
+        <Certificate />
+        <Footer/>
+      </section>
     </>
   );
 }
