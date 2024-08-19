@@ -1,4 +1,4 @@
-import SideBar from "@/components/sideBar";
+import SideBar from "@/components/sidebar";
 import Navbar from "@/components/navbar";
 import Homepages from "@/components/pages/homepages";
 import Motivate from "@/components/pages/motivate";
