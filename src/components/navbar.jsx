@@ -13,7 +13,7 @@ export default function Navbar() {
             </svg>
           </button>
           <div id="navbar-menu" className="hidden h-screen md:bg-transparent absolute top-full right-0 w-full md:top-0 transition-all duration-300 ease-in-out md:right-8 lg:right-20 items-center gap-2 md:gap-5 md:flex md:w-auto md:h-full">
-            <div className="bg-[#ffd7aa]">
+            <div className="bg-[#ffd7aa] md:flex md:w-full md:bg-transparent ">
               <a className="w-full md:w-auto px-4 md:px-10 py-2 md:py-0 text-lg lg:text-xl capitalize font-normal md:h-full flex items-center justify-center duration-300 ease-in-out transition-all hover:scale-110" href="#about">About</a>
               <a className="w-full border-t-2 border-[#a67741] md:border-0 md:w-auto px-4 md:px-10 py-2 md:py-0 text-lg lg:text-xl capitalize font-normal md:h-full flex items-center justify-center duration-300 ease-in-out transition-all hover:scale-110" href="#portofolio">Portofolio</a>
               <a className="w-full border-t-2 border-[#a67741] md:border-0 md:w-auto px-4 md:px-10 py-2 md:py-0 text-lg lg:text-xl capitalize font-normal md:h-full flex items-center justify-center duration-300 ease-in-out transition-all hover:scale-110" href="#certificate">Certificate</a>

@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="w-full h-fit lg:h-[350px] bg-[#F0EBE3] flex flex-col md:flex-row items-center justify-between gap-2">
             <div className="h-full w-full flex flex-col items-center justify-center p-2 gap-2 md:p-5 lg:gap-5 md:w-1/3">
                 <h1 className="w-full text-left text-base md:text-sm lg:text-base">Currently vibing to:</h1>
-                <iframe width="90%" height="200" src="https://www.youtube.com/embed/ChukpOHfAI8?si=JTtFvLVqHFIbf8ji" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="90%" height="200" src="https://www.youtube.com/embed/ChukpOHfAI8?si=JTtFvLVqHFIbf8ji" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 <p className="text-center w-[85%] font-light text-base md:text-sm lg:text-base">OneRepublic - Nobody (from Kaiju No. 8) [Official Lyric Video]</p>
             </div>
             <div className="h-full w-full md:w-1/2 flex flex-col items-center justify-between py-5 md:py-16">

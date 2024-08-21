@@ -1,8 +1,8 @@
 export default function Motivate() {
   return (
     <>
-     <section className="h-[600px] w-full bg-[#f5d2d2] flex items-center justify-center px-5 py-20 md:px-10 lg:px-[300px] lg:py-10 md:h-[700px] lg:h-screen">
-        <div className="mb-10 md:mb-32 md:mt-20 w-full h-full relative flex flex-col items-center justify-center lg:mb-0">
+     <section className="h-[600px] w-full bg-[#f5d2d2] flex items-center justify-center px-5 py-20 md:px-10 lg:px-[300px] md:h-[700px] lg:h-screen lg:py-10">
+        <div className="mb-10 md:mb-32 md:mt-20 w-full h-full relative flex flex-col items-center justify-center">
           <div className="w-[70%] h-full absolute top-0 right-0 bg-[#ffebd7] border-[1px] border-slate-300 md:w-1/2 lg:h-[80%] lg:w-[35%]"></div>
 
           <div className="absolute -top-10 -right-12 md:-top-16 md:-right-20 blur-[2px]">
